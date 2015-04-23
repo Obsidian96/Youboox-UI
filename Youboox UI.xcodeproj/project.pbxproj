@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		192EF0D01AE9262600EB0289 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192EF0CF1AE9262600EB0289 /* QuartzCore.framework */; };
+		192EF0D41AE9329100EB0289 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192EF0D31AE9329100EB0289 /* main.storyboard */; };
 		19F8C1211AE7D2B700F6CD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8C1201AE7D2B700F6CD5A /* AppDelegate.swift */; };
 		19F8C1231AE7D2B700F6CD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8C1221AE7D2B700F6CD5A /* ViewController.swift */; };
-		19F8C1261AE7D2B700F6CD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F8C1241AE7D2B700F6CD5A /* Main.storyboard */; };
 		19F8C1281AE7D2B700F6CD5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F8C1271AE7D2B700F6CD5A /* Images.xcassets */; };
 		19F8C12B1AE7D2B700F6CD5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19F8C1291AE7D2B700F6CD5A /* LaunchScreen.xib */; };
 		19F8C1371AE7D2B800F6CD5A /* Youboox_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8C1361AE7D2B800F6CD5A /* Youboox_UITests.swift */; };
@@ -28,11 +28,11 @@
 
 /* Begin PBXFileReference section */
 		192EF0CF1AE9262600EB0289 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		192EF0D31AE9329100EB0289 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		19F8C11B1AE7D2B700F6CD5A /* Youboox UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youboox UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F8C11F1AE7D2B700F6CD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19F8C1201AE7D2B700F6CD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19F8C1221AE7D2B700F6CD5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19F8C1251AE7D2B700F6CD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19F8C1271AE7D2B700F6CD5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		19F8C12A1AE7D2B700F6CD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		19F8C1301AE7D2B800F6CD5A /* Youboox UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Youboox UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,10 +83,10 @@
 			children = (
 				19F8C1201AE7D2B700F6CD5A /* AppDelegate.swift */,
 				19F8C1221AE7D2B700F6CD5A /* ViewController.swift */,
-				19F8C1241AE7D2B700F6CD5A /* Main.storyboard */,
 				19F8C1271AE7D2B700F6CD5A /* Images.xcassets */,
 				19F8C1291AE7D2B700F6CD5A /* LaunchScreen.xib */,
 				19F8C11E1AE7D2B700F6CD5A /* Supporting Files */,
+				192EF0D31AE9329100EB0289 /* main.storyboard */,
 			);
 			path = "Youboox UI";
 			sourceTree = "<group>";
@@ -196,8 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F8C1261AE7D2B700F6CD5A /* Main.storyboard in Resources */,
 				19F8C12B1AE7D2B700F6CD5A /* LaunchScreen.xib in Resources */,
+				192EF0D41AE9329100EB0289 /* main.storyboard in Resources */,
 				19F8C1281AE7D2B700F6CD5A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		19F8C1241AE7D2B700F6CD5A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19F8C1251AE7D2B700F6CD5A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		19F8C1291AE7D2B700F6CD5A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
