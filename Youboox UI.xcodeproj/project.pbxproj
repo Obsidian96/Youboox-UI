@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192EF0D01AE9262600EB0289 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192EF0CF1AE9262600EB0289 /* QuartzCore.framework */; };
 		19F8C1211AE7D2B700F6CD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8C1201AE7D2B700F6CD5A /* AppDelegate.swift */; };
 		19F8C1231AE7D2B700F6CD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8C1221AE7D2B700F6CD5A /* ViewController.swift */; };
 		19F8C1261AE7D2B700F6CD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F8C1241AE7D2B700F6CD5A /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		192EF0CF1AE9262600EB0289 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		19F8C11B1AE7D2B700F6CD5A /* Youboox UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youboox UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F8C11F1AE7D2B700F6CD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19F8C1201AE7D2B700F6CD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192EF0D01AE9262600EB0289 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		19F8C1121AE7D2B700F6CD5A = {
 			isa = PBXGroup;
 			children = (
+				192EF0CF1AE9262600EB0289 /* QuartzCore.framework */,
 				19F8C11D1AE7D2B700F6CD5A /* Youboox UI */,
 				19F8C1331AE7D2B800F6CD5A /* Youboox UITests */,
 				19F8C11C1AE7D2B700F6CD5A /* Products */,
