@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		192EF0D01AE9262600EB0289 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192EF0CF1AE9262600EB0289 /* QuartzCore.framework */; };
 		192EF0D41AE9329100EB0289 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192EF0D31AE9329100EB0289 /* main.storyboard */; };
+		19355E191AEB985600F73653 /* hf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19355E181AEB985600F73653 /* hf.jpg */; };
 		19F8C1211AE7D2B700F6CD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8C1201AE7D2B700F6CD5A /* AppDelegate.swift */; };
 		19F8C1231AE7D2B700F6CD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F8C1221AE7D2B700F6CD5A /* ViewController.swift */; };
 		19F8C1281AE7D2B700F6CD5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F8C1271AE7D2B700F6CD5A /* Images.xcassets */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		192EF0CF1AE9262600EB0289 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		192EF0D31AE9329100EB0289 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		19355E181AEB985600F73653 /* hf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hf.jpg; sourceTree = "<group>"; };
 		19F8C11B1AE7D2B700F6CD5A /* Youboox UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youboox UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F8C11F1AE7D2B700F6CD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19F8C1201AE7D2B700F6CD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		19F8C11D1AE7D2B700F6CD5A /* Youboox UI */ = {
 			isa = PBXGroup;
 			children = (
+				19355E181AEB985600F73653 /* hf.jpg */,
 				19F8C1201AE7D2B700F6CD5A /* AppDelegate.swift */,
 				19F8C1221AE7D2B700F6CD5A /* ViewController.swift */,
 				19F8C1271AE7D2B700F6CD5A /* Images.xcassets */,
@@ -199,6 +202,7 @@
 				19F8C12B1AE7D2B700F6CD5A /* LaunchScreen.xib in Resources */,
 				192EF0D41AE9329100EB0289 /* main.storyboard in Resources */,
 				19F8C1281AE7D2B700F6CD5A /* Images.xcassets in Resources */,
+				19355E191AEB985600F73653 /* hf.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

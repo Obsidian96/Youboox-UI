@@ -229,16 +229,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9z-nH-Z2I">
-                                <rect key="frame" x="59" y="174" width="46" height="30"/>
+                                <rect key="frame" x="28" y="98" width="122" height="122"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Jhg-Lu-VND" kind="modal" id="2nH-ah-XEs"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cei-9f-W7S">
-                                <rect key="frame" x="16" y="93" width="133" height="128"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bAt-OT-Yz4">
-                                <rect key="frame" x="169" y="236" width="135" height="128"/>
+                                <rect key="frame" x="15" y="236" width="133" height="128"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s5b-KM-Tvu">
                                 <rect key="frame" x="169" y="377" width="135" height="128"/>
@@ -246,8 +246,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N61-bJ-v2K">
                                 <rect key="frame" x="15" y="377" width="135" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ijK-OE-sNM">
-                                <rect key="frame" x="16" y="236" width="135" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hf.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ijK-OE-sNM">
+                                <rect key="frame" x="16" y="93" width="135" height="128"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Obx-v9-PI2">
                                 <rect key="frame" x="169" y="93" width="135" height="128"/>
@@ -270,6 +270,9 @@
                                     <segue destination="voH-yd-arG" kind="modal" id="htS-XB-fas"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bAt-OT-Yz4">
+                                <rect key="frame" x="169" y="236" width="135" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -280,6 +283,9 @@
             <point key="canvasLocation" x="878" y="-92"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hf.jpg" width="615" height="315"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
